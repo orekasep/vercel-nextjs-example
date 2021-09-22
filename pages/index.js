@@ -15,12 +15,12 @@ export default function Home() {
         </h1>
 
         <div className="grid">
-          <Link href="/news">
+          <Link href="/about">
             <a className="card">
               <h3>Static Page &rarr;</h3>
             </a>
           </Link>
-          <Link href="/about">
+          <Link href="/news">
             <a className="card">
               <h3>SSR Page &rarr;</h3>
             </a>
